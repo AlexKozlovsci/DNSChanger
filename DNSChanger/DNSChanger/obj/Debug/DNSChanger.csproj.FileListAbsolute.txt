@@ -1,0 +1,9 @@
+F:\programs\DNSChanger\DNSChanger\bin\Debug\DNSChanger.exe.config
+F:\programs\DNSChanger\DNSChanger\bin\Debug\DNSChanger.exe
+F:\programs\DNSChanger\DNSChanger\bin\Debug\DNSChanger.pdb
+F:\programs\DNSChanger\DNSChanger\obj\Debug\DNSChanger.csprojResolveAssemblyReference.cache
+F:\programs\DNSChanger\DNSChanger\obj\Debug\DNSChanger.mainForm.resources
+F:\programs\DNSChanger\DNSChanger\obj\Debug\DNSChanger.Properties.Resources.resources
+F:\programs\DNSChanger\DNSChanger\obj\Debug\DNSChanger.csproj.GenerateResource.Cache
+F:\programs\DNSChanger\DNSChanger\obj\Debug\DNSChanger.exe
+F:\programs\DNSChanger\DNSChanger\obj\Debug\DNSChanger.pdb
