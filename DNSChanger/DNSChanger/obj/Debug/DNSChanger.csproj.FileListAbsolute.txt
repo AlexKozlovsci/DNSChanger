@@ -16,3 +16,12 @@ F:\programs\DNSChanger\DNSChanger\DNSChanger\obj\Debug\DNSChanger.csprojResolveA
 F:\programs\DNSChanger\DNSChanger\DNSChanger\obj\Debug\DNSChanger.mainForm.resources
 F:\programs\DNSChanger\DNSChanger\DNSChanger\obj\Debug\DNSChanger.Properties.Resources.resources
 F:\programs\DNSChanger\DNSChanger\DNSChanger\obj\Debug\DNSChanger.csproj.GenerateResource.Cache
+E:\my programs\DNSChanger\DNSChanger\DNSChanger\bin\Debug\DNSChanger.exe.config
+E:\my programs\DNSChanger\DNSChanger\DNSChanger\obj\Debug\DNSChanger.exe
+E:\my programs\DNSChanger\DNSChanger\DNSChanger\obj\Debug\DNSChanger.pdb
+E:\my programs\DNSChanger\DNSChanger\DNSChanger\bin\Debug\DNSChanger.exe
+E:\my programs\DNSChanger\DNSChanger\DNSChanger\bin\Debug\DNSChanger.pdb
+E:\my programs\DNSChanger\DNSChanger\DNSChanger\obj\Debug\DNSChanger.mainForm.resources
+E:\my programs\DNSChanger\DNSChanger\DNSChanger\obj\Debug\DNSChanger.Properties.Resources.resources
+E:\my programs\DNSChanger\DNSChanger\DNSChanger\obj\Debug\DNSChanger.csproj.GenerateResource.Cache
+E:\my programs\DNSChanger\DNSChanger\DNSChanger\obj\Debug\DNSChanger.csprojResolveAssemblyReference.cache

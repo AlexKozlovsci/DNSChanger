@@ -19,28 +19,56 @@ namespace DNSChanger
 
         private void btnSet_Click(object sender, EventArgs e)
         {
-            bool result = DNSChanger.Set();
-            if (result)
+            try
             {
-                MessageBox.Show("DNS set success!", "Success", MessageBoxButtons.OK);
+                bool result = DNSChanger.Set((string)cmbbxNetworks.SelectedItem); ;
+                if (result)
+                {
+                    MessageBox.Show("DNS set success!", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                }
+                else
+                {
+                    MessageBox.Show("DNS set error!", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+                
+                
             }
-            else
+            catch(Exception ex)
             {
-                MessageBox.Show("DNS set error!", "Error", MessageBoxButtons.OK);
+                MessageBox.Show("DNS set error!\n Error: " + ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
 
         private void btnDelete_Click(object sender, EventArgs e)
         {
-            bool result = DNSChanger.Delete();
-            if (result)
+            try
             {
-                MessageBox.Show("DNS delete success!", "Success", MessageBoxButtons.OK);
+                bool result = DNSChanger.Delete((string)cmbbxNetworks.SelectedItem);
+                if (result)
+                {
+                    MessageBox.Show("DNS delete success!", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                }
+                else
+                {
+                    MessageBox.Show("DNS delete error!", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+                
             }
-            else
+            catch (Exception ex)
             {
-                MessageBox.Show("DNS delete error!", "Error", MessageBoxButtons.OK);
+                MessageBox.Show("DNS delete error!\n Error: " + ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
+        }
+
+        private void btnSearch_Click(object sender, EventArgs e)
+        {
+            List<string> networks = new List<string>();
+            networks = DNSChanger.CheckNetworks();
+            foreach (string item in networks)
+                cmbbxNetworks.Items.Add(item);
+            cmbbxNetworks.Enabled = true;
+            btnDelete.Enabled = true;
+            btnSet.Enabled = true;
         }
     }
 }
